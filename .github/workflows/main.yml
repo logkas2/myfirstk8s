@@ -17,7 +17,7 @@ jobs:
     # - uses: ./ # Uses an action in the root directory
     - name: Reconcile Clusters
       id: reconcile
-      uses: shalb/cluster.dev@v0.1.7 # Cluster.dev release tag
+      uses: shalb/cluster.dev@v0.1.6 # Cluster.dev release tag
       with:
         cluster-config: './.cluster.dev/'
     # Use the output from the `reconcile` step
